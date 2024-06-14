@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    margin-top: 40%;
+}
+#sun,#sun1,#sun2,#road,#road1,#road2,#rain,#rain1,#rain2,#man,#man1,#man2,#woman,#woman1,#woman2,#rcar,#bcar,#gcar{
+visibility: hidden;
+width: 0px;
+height: 0px;
+
+
+}
+
+#sunstyle,#carstyle {
+    padding: 20px;
+font-size: 30px;
+border-radius: 60px;
+    font-size: 10px;
+margin-top: 5%;
+margin-left: 50%;
+visibility: hidden;
+position: absolute;
+padding: 0px;
+display: inline-flex;
+}
+#sunstyle button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 90px;
+    
+    
+    
+}
+#button button{
+    padding: 20px;
+font-size: 30px;
+border-radius: 60px;
+
+
+
+}
+#button{
+    position: fixed;
+top: 140px;
+display: inline-flex;
+margin-left: 50%;
+}
